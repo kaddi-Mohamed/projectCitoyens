@@ -1,0 +1,14 @@
+{
+  "jwtPrivateKey": "jwt_jwtPrivateKey",
+  "port": "PORT",
+  "db": {
+    "host": "DB_HOST",
+    "name": "DB_NAME"
+  },
+  "db_uri": "DB_URI",
+  "baseUrl": "BASE_URL",
+  "adminEmail": "ADMIN_EMAIL",
+  "service": "SERVICE",
+  "password": "PASSWORD",
+  "loginPage": "LOGIN_PAGE"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Verify Email</title>
+  </head>
+  <body>
+    <div>
+      <div class="row align-items-center" style="height: 100vh">
+        <div
+          class="shadow p-3 mb-5 bg-body rounded mx-auto col-10 col-md-8 col-lg-6"
+        >
+          <h1>Verify your email</h1>
+          <p>
+            Please click on the following link to verify your email address:
+          </p>
+          <form action="<%= token %>" method="GET">
+            <input type="submit" value="Verify" class="btn btn-primary" />
+          </form>
+          <p>
+            If you did not request this verification, please ignore this email.
+          </p>
+          <p>Thanks,</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
